@@ -10,7 +10,7 @@ export const About = () => {
         <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-700 to-blue-500 p-6">
             <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg text-center">
                 <img
-                    src="/imagenes/yo.jpg"
+                    src={`${import.meta.env.BASE_URL}imagenes/yo.jpg`}
                     alt="Imagen de Perfil"
                     className="w-40 h-40 rounded-full mx-auto shadow-md border-4 border-blue-200 mb-6 object-cover"
                 />
